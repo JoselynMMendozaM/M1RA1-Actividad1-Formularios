@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/23/e2/37/23e23785ef0e823738f1e456c39ab0ed.jpg');
+            background-repeat: no-repeat;
+            background-position: center center; 
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .form-recuperacion{
+            width: 300px;
+            background-attachment: fixed;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 40px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+            
+        }
+
+    
+        .form-recuperacion label{
+            margin: 0.5rem;
+        }
+
+        .form-recuperacion input{
+            margin: 0.5rem;
+            background-attachment: fixed;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <a href="index.html">Regresar</a>
+
+    <div>
+        <form class="form-recuperacion">
+            <h1>Olvide mi contraseña</h1>
+            <hr>
+
+            <p>
+                <label for="txt_nombre">Correo Electrónico:</label>
+                <input type="email" name="txt_email" placeholder="Ingrese su Correo" style="width: 280px;">
+            </p>
+          
+            <p>
+                <label for="txt_contraseña">Confirmar Correo Electrónico:</label>
+                <input type="password" name="txt-password" placeholder="Ingrese su Correo" style="width: 280px;"> 
+            </p>
+            
+            
+    
+            <input class="btn-recuperacion" type="submit" value="Recuperar Contraseña" style="height: 30px; width: 200px; margin-left: 17%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+        </form>
+    </div>
+
+</body>
+</html>

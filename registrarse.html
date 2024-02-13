@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/23/e2/37/23e23785ef0e823738f1e456c39ab0ed.jpg');
+            background-repeat: no-repeat;
+            background-position: center center; 
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .form-registro{
+            width: 350px;
+            background-attachment: fixed;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 40px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+            
+        }
+         
+        .form-registro label{
+            margin: 0.5rem;
+        }
+    
+
+        .form-registro input{
+            margin: 0.5rem;
+            background-attachment: fixed;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+        }
+
+        
+    </style>
+</head>
+
+<body>
+ 
+    <a href="index.html">Regresar</a>
+
+    <div>
+
+    
+        <form class="form-registro" >
+            <h1>Registrarse</h1>
+            <hr>
+            <p>
+                <label for="txt_name">Nombre(s):</label>
+                <input type="text" id="txt_name" name="txt_name" placeholder="Ingrese su Nombre"  style="width: 320px";>
+            </p>
+           
+            <p>
+                <label for="txt_apellido">Apellido(s):</label>
+                <input type="text" id="txt_apellido" name="txt_apellido" placeholder="Ingrese su Apellido" style="width: 320px;";>
+            </p>
+            
+            <p>
+                <label for="txt_tel">Teléfono:</label>
+                <input type="text" id="txt_tel" name="txt_tel" placeholder="Ingrese su Teléfono"  style="width: 320px";>
+            </p>
+            
+            <p>
+                <label for="txt_date">Fecha de Nacimiento:</label>
+                <input type="date" id="txt_date" name="txt_date" style="width: 143px;">
+            </p>
+            
+            <p>
+                <label for="txt_name">Género:</label>
+                <label for="">Maculino</label>
+                <input type="radio" value="M" name="genero">
+                <label for="">Femenino</label>
+                <input type="radio" value="F" name="genero">
+            </p>
+
+            
+            <p>
+                <label for="txt_name">Área de Interes:</label>
+                <br>
+                <label for="">Front-end</label>
+                <input type="checkbox" value="F" name="programming">
+                <label for="">Back-end</label>
+                <input type="checkbox" value="B" name="programming">
+                <br>
+                <label for="">Data System</label>
+                <input type="checkbox" value="D" name="programming">
+            </p>
+            
+            
+            
+
+            <p>
+                <label for="lst_edu">Nivel Académico:</label>
+                <br>
+                <select name="lst:_edu" id="lst_edu" style="width: 340px;">
+                    <option value="1">Seleccionar--</option>
+                    <option value="1">Primaria</option>
+                    <option value="2">Básicos</option>
+                    <option value="3">Bachillerato</option>
+                    <option value="4">Técnico</option>
+                    <option value="5">Licenciatura</option>
+                    <option value="6">Maestría</option>
+                    <option value="7">Doctorado</option>
+                 </select>
+            </p>
+            
+            <p>
+                <label for="">Correo Electrónico</label>
+                <input type="email" placeholder="Ingrese su Correo"  style="width: 330px;">
+            </p>
+            
+            <p>
+                <label for="">Contraseña</label>
+                <input type="password" placeholder="Ingrese una contraseña"style="width: 330px;">
+            </p>
+            
+            <p>
+                <input type="submit" name="btn_registro" value="Registrarse" style="height: 30px; width: 200px; margin-left: 20%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            </p>
+                
+            
+        </form>
+        
+
+    </div>        
+
+</body>
+</html>

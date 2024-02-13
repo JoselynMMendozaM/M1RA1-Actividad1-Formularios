@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <style>
+         body {
+            background-image: url('https://i.pinimg.com/originals/23/e2/37/23e23785ef0e823738f1e456c39ab0ed.jpg');
+            background-repeat: no-repeat;
+            background-position: center center; 
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .form-login{
+            width: 250px;
+            background-attachment: fixed;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 40px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+ 
+        }
+        
+
+        .form-login label{
+            margin: 0.5rem;
+           
+        }
+
+        .form-login input{
+            margin: 0.5rem;
+            width: 220px;
+            background-attachment: fixed;
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 2);
+            box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+            
+           
+        }
+
+        
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <form class="form-login">
+            <h1>Inicio de Sesión</h1>
+            <hr>
+            <p>
+                <label for="txt_usuario">Nombre de Usuario:</label>
+                <input type="text" name="txt_usuario" placeholder="Ingrese su Usuario">
+            </p>
+           
+            <p>
+                <label for="txt_paswword">Contraseña:</label>
+                <input type="password" name="txt_paswword" placeholder="Ingrese su contraseña">     
+            </p>
+            <p>
+                <a href="controleshtml5.html"><input class="btn-ctlshtml5" type="button" value="Acceder" style="height: 30px; width: 200px; margin-left: 10%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;"></a>
+            </p>
+
+            <a href="recuperarContraseña.html" style="color: rgb(255, 0, 0);">Olvido su contraseña</a>
+            <hr>
+        
+            <p>
+                <label for="txt_usuario">Usuario Nuevo:</label>
+                <a href="registrarse.html"><input class="btn-registrarse" type="button" value="Registrarse" style="height: 30px; width: 200px; margin-left: 10%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;"></a>    
+            </p>
+           
+
+        </form>
+    </div>     
+</body>
+</html>
