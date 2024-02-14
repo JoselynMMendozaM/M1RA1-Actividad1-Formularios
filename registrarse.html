@@ -39,6 +39,13 @@
             border: 2px solid rgba(255, 255, 255, 2);
             box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
         }
+        .btn-registro{
+            cursor: pointer;
+            
+        }
+        .btn-registro:hover{
+            background-color: rgba(162, 160, 160, 0.568);
+        }
 
         
     </style>
@@ -71,15 +78,15 @@
             
             <p>
                 <label for="txt_date">Fecha de Nacimiento:</label>
-                <input type="date" id="txt_date" name="txt_date" style="width: 143px;">
+                <input type="date" id="txt_date" name="txt_date" style="width: 143px; cursor: pointer;">
             </p>
             
             <p>
                 <label for="txt_name">Género:</label>
                 <label for="">Maculino</label>
-                <input type="radio" value="M" name="genero">
+                <input type="radio" value="M" name="genero" style="cursor: pointer;">
                 <label for="">Femenino</label>
-                <input type="radio" value="F" name="genero">
+                <input type="radio" value="F" name="genero" style="cursor: pointer;">
             </p>
 
             
@@ -87,12 +94,12 @@
                 <label for="txt_name">Área de Interes:</label>
                 <br>
                 <label for="">Front-end</label>
-                <input type="checkbox" value="F" name="programming">
+                <input type="checkbox" value="F" name="programming" style="cursor: pointer;">
                 <label for="">Back-end</label>
-                <input type="checkbox" value="B" name="programming">
+                <input type="checkbox" value="B" name="programming" style="cursor: pointer;">
                 <br>
                 <label for="">Data System</label>
-                <input type="checkbox" value="D" name="programming">
+                <input type="checkbox" value="D" name="programming" style="cursor: pointer;">
             </p>
             
             
@@ -101,7 +108,7 @@
             <p>
                 <label for="lst_edu">Nivel Académico:</label>
                 <br>
-                <select name="lst:_edu" id="lst_edu" style="width: 340px;">
+                <select name="lst:_edu" id="lst_edu" style="width: 340px; cursor: pointer;">
                     <option value="1">Seleccionar--</option>
                     <option value="1">Primaria</option>
                     <option value="2">Básicos</option>
@@ -124,7 +131,7 @@
             </p>
             
             <p>
-                <input type="submit" name="btn_registro" value="Registrarse" style="height: 30px; width: 200px; margin-left: 20%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <a href="index.html"><input  class="btn-registro" type="submit" name="btn_registro" value="Registrarse" style="height: 30px; width: 200px; margin-left: 20%; border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;"></a>
             </p>
                 
             
